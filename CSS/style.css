@@ -1,0 +1,57 @@
+body {
+    background-color: #D7CFDA;
+    text-align: center;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#lyla {
+    text-align: center;
+    border-style: double;
+    border-color: d7cfda;
+    background-color: #F8F2FA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: #423347;
+}
+
+img {
+    align-content: center;
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+}
+
+h3 {
+    text-align: center;
+    color: #423347;
+}
+
+.navBar {
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+
+#story {
+    border-style: double;
+    background-color: #F8F2FA;
+    width: 65%;
+    height: 20%;
+    margin: auto;
+    padding: 1%;
+}
+
+#contact {
+    font-size: 1.5em;
+    border-style: double;
+    margin: auto;
+    padding-left: 2%;
+
+}
