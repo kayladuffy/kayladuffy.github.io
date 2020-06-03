@@ -2,7 +2,7 @@ body {
     background-color: #D7CFDA;
     text-align: center;
     font-size: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #lyla {
@@ -10,9 +10,10 @@ body {
     border-style: double;
     border-color: d7cfda;
     background-color: #F8F2FA;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 4em;
+    font-family: 'Dancing Script', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 5em;
     color: #423347;
+    padding: 1%;
 }
 
 img {
@@ -53,5 +54,4 @@ h3 {
     border-style: double;
     margin: auto;
     padding-left: 2%;
-
 }
