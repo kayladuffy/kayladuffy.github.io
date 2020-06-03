@@ -103,3 +103,18 @@ hr {
     width: 100%;
     height: 1rem;
 }
+
+.product {
+    align-content: center;
+    margin: auto;
+    width: 75%;
+    padding-top: 2%; 
+}
+
+.row {
+    display: flex;
+}
+
+.tee {
+    font-size: 1.25em;
+}
