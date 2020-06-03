@@ -149,3 +149,10 @@ button[type="Submit"] {
     font-size: 20px;
     text-align: center;
 }
+
+#model {
+    align-content: center;
+    margin-bottom: 1.5%;
+    width: 75%;
+    padding-top: 2%;  
+}
