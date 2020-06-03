@@ -78,3 +78,9 @@ hr {
     color: #423347;
     border-style: double;
 }
+
+#logo {
+    float: left;
+    width: 20%;
+    height: 20%;
+}
