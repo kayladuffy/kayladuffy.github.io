@@ -7,8 +7,8 @@ body {
 
 #lyla {
     text-align: center;
-    font-family: 'Parisienne', cursive, Georgia, 'Times New Roman', Times, serif;
-    font-size: 6em;
+    font-family: 'Raleway', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 7.5em;
     color: #423347;
     width: 100%;
     margin: auto;
@@ -35,7 +35,6 @@ h3 {
 .navBar {
     font-size: 2em;
     width: 100%;
-    overflow: auto;
 }
 
 .navBar a {
@@ -43,12 +42,25 @@ h3 {
     padding: 12px;
     color: #423347;
     text-decoration: none;
-    width: 30%;
+    width: 50%;
 }
 
-.navbar a:hover {
-    background-color: #000;
+.navBar a:hover {
+    color: white;
   }
+
+.navBar a.active {
+    color: white;
+  }
+
+@media screen and (max-width: 500px) {
+.navBar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+}
 
 .label {
     font-size: 4em;
@@ -84,3 +96,34 @@ hr {
     width: 20%;
     height: 20%;
 }
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 1rem;          
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 25%;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
