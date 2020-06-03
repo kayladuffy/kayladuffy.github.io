@@ -7,20 +7,24 @@ body {
 
 #lyla {
     text-align: center;
-    border-style: double;
-    border-color: d7cfda;
-    background-color: #F8F2FA;
-    font-family: 'Dancing Script', cursive, Georgia, 'Times New Roman', Times, serif;
-    font-size: 5em;
+    font-family: 'Parisienne', cursive, Georgia, 'Times New Roman', Times, serif;
+    font-size: 6em;
     color: #423347;
-    padding: 1%;
+    width: 100%;
+    margin: auto;
 }
 
 img {
     align-content: center;
     margin: auto;
+    width: 75%;
+    padding-top: 2%;
+}
+
+#tees {
+    align-content: center;
+    margin: 0;
     width: 50%;
-    padding: 2%;
 }
 
 h3 {
@@ -29,15 +33,29 @@ h3 {
 }
 
 .navBar {
-    text-align: center;
     font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-
+    width: 100%;
+    overflow: auto;
 }
 
+.navBar a {
+    float: center;
+    padding: 12px;
+    color: #423347;
+    text-decoration: none;
+    width: 30%;
+}
+
+.navbar a:hover {
+    background-color: #000;
+  }
+
 .label {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 4em;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #story {
@@ -46,7 +64,7 @@ h3 {
     width: 65%;
     height: 20%;
     margin: auto;
-    padding: 1%;
+    padding: 3%;
 }
 
 #contact {
@@ -54,4 +72,9 @@ h3 {
     border-style: double;
     margin: auto;
     padding-left: 2%;
+}
+
+hr {
+    color: #423347;
+    border-style: double;
 }
