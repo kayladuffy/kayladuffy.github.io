@@ -173,3 +173,9 @@ section#carousel > figure.visible > img {
 #button {
     margin-bottom: 15%;
 }
+
+.logo {
+    width: 35%;
+    margin: auto;
+    padding: auto;
+}
